@@ -1,0 +1,26 @@
+{
+  "name": "ui_generator_backend",
+  "version": "1.0.0",
+  "description": "This is the backend for UI_Generator project",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openrouter/sdk": "^0.8.0",
+    "axios": "^1.13.5",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.23.0",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.1"
+  }
+}

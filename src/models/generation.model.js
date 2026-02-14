@@ -1,3 +1,5 @@
+import mongoose from "mongoose";
+
 const generationSchema = new mongoose.Schema({
   projectId: {
     type: mongoose.Schema.Types.ObjectId,

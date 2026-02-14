@@ -20,7 +20,6 @@ Users can authenticate, generate UI components using AI, save history, and manag
 
 1. User logs into the platform.
 2. User enters a prompt like:
-
 3. Backend sends prompt to AI service.
 4. AI returns UI code (HTML / CSS / React).
 5. Generated UI is saved in MongoDB and displayed on dashboard.
